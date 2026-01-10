@@ -1,33 +1,33 @@
 /* General text style */
 text {
 	font-family: sans-serif;
-	font-size: 8pt;
+	font-size: 11px;
 }
 
 /* Colors for text representing states */
 text.Up {
-	fill: rgb(0, 204, 51);;
+	fill: rgb(0, 128, 0);
 }
 text.Down {
-	fill: rgb(255, 51, 0);
+	fill: rgb(255, 0, 0);
 }
 text.Unreachable {
-	fill: rgb(191, 68, 178);
+	fill: rgb(128, 0, 0);
 }
 text.Ok {
-	fill: rgb(0, 204, 51);
+	fill: rgb(0, 128, 0);
 }
 text.Warning {
-	fill: rgb(255, 165, 0);
+	fill: rgb(176, 178, 20);
 }
 text.Unknown {
-	fill: rgb(191, 68, 178);
+	fill: rgb(255, 100, 25);
 }
 text.Critical {
-	fill: rgb(255, 51, 0);
+	fill: rgb(255, 0, 0);
 }
 text.Indeterminate {
-	fill: rgb(204, 204, 204);
+	fill: rgb(0, 0, 0);
 }
 
 /* Class to hide elements */

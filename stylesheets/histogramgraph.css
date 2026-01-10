@@ -1,53 +1,53 @@
 /* General text style */
 text {
 	font-family: sans-serif;
-	font-size: 8pt;
+	font-size: 11px;
 }
 
 /* Colors for text representing states */
 text.up {
-	fill: rgb(0, 204, 51);
+	fill: rgb(0, 128, 0);
 }
 text.down {
-	fill: rgb(255, 51, 0);
+	fill: rgb(255, 0, 0);
 }
 text.unreachable {
-	fill: rgb(191, 68, 178);
+	fill: rgb(128, 0, 0);
 }
 text.ok {
-	fill: rgb(0, 204, 51);
+	fill: rgb(0, 128, 0);
 }
 text.warning {
-	fill: rgb(255, 165, 0);
+	fill: rgb(176, 178, 20);
 }
 text.unknown {
-	fill: rgb(191, 68, 178);
+	fill: rgb(255, 100, 25);
 }
 text.critical {
-	fill: rgb(255, 51, 0);
+	fill: rgb(255, 0, 0);
 }
 
 /* Colors for text representing states */
 path.up {
-	stroke: rgb(0, 204, 51);
+	stroke: rgb(0, 128, 0);
 }
 path.down {
-	stroke: rgb(255, 51, 0);
+	stroke: rgb(255, 0, 0);
 }
 path.unreachable {
-	stroke: rgb(191, 68, 178);
+	stroke: rgb(128, 0, 0);
 }
 path.ok {
-	stroke: rgb(0, 204, 51);
+	stroke: rgb(0, 128, 0);
 }
 path.warning {
-	stroke: rgb(255, 165, 0);
+	stroke: rgb(176, 178, 20);
 }
 path.unknown {
-	stroke: rgb(191, 68, 178);
+	stroke: rgb(255, 100, 25);
 }
 path.critical {
-	stroke: rgb(255, 51, 0);
+	stroke: rgb(255, 0, 0);
 }
 
 /* Class to hide elements */

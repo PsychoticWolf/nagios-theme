@@ -7,7 +7,7 @@ body {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 0.7em;
 	color: #000;
-	background-color: #ededed;
+	background: #ededed url(../../images/interface/menu_body.gif) top left repeat-y;
 }
 
 img {
@@ -27,8 +27,7 @@ ul {
 	padding: 0 5px;
 	height: 26px;
 	color: #fff;
-	background-color: #6e7475;
-	background: linear-gradient(#6e7475, #91999b);
+	background: #ededed url(../../images/interface/bar.gif) top left repeat-x;
 	border-bottom: 1px solid #fff;
 	line-height: 26px;
 	font-size: 1em;
@@ -47,12 +46,9 @@ ul {
 	border-bottom: 1px solid #fff;
 }
 
-#menu ul li:nth-child(even) {
-	background-color: #ededed;
-}
-
-#menu ul li:nth-child(odd) {
-	background-color: #e9e9e9;
+#menu ul li a:first-child {
+	padding-left: 12px;
+	background: url(../../images/interface/menu_li1.gif) 0 0.4em no-repeat;
 }
 
 #menu ul li a:link, #menu ul li a:active, #menu ul li a:visited {
@@ -64,11 +60,49 @@ ul {
 	color: #000;
 }
 
-#menu ul li a:first-child {
-	padding-left: 12px;
-	background: url(../../images/interface/menu_li1.gif) 0 0.4em no-repeat;
-}
-
 #menu ul li a:first-child:hover {
 	background: url(../../images/interface/menu_li2.gif) 0 0.4em no-repeat;
+}
+
+#menu ul li.menuli_style1 {
+	background-color: #ededed;
+}
+
+#menu ul li.menuli_style2 {
+	background-color: #e9e9e9;
+}
+
+
+@media (prefers-color-scheme: dark)
+{
+	body
+	{
+		background: #1c1c1c;
+		color: #FFF;
+	}
+	
+	#menu h2
+	{
+		background: linear-gradient(#333, #1c1c1c);
+		border-bottom: 1px solid #545454;
+	}
+	
+	#menu ul li.menuli_style1
+	{
+		background-color: #2d2e38;
+	}
+	
+	#menu ul li.menuli_style2
+	{
+		background-color: #363743;
+	}
+	
+	#menu ul li a:link, #menu ul li a:active, #menu ul li a:visited {
+		color: #DDD;
+	}
+	
+	#menu ul li
+	{
+		border-bottom: 1px solid #1c1c1c;
+	}
 }
